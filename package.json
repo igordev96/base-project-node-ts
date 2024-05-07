@@ -1,0 +1,25 @@
+{
+	"name": "node-images-scraper",
+	"version": "1.0.0",
+	"main": "./src/main.ts",
+	"type": "module",
+	"scripts": {
+		"start": "tsx src/main.ts",
+		"dev": "tsx watch src/main.ts",
+		"build": "rollup -c",
+		"lint": "biome check --apply ."
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "1.7.3",
+		"@rollup/plugin-commonjs": "^25.0.7",
+		"@rollup/plugin-json": "^6.1.0",
+		"@rollup/plugin-node-resolve": "^15.2.3",
+		"@rollup/plugin-terser": "^0.4.4",
+		"@rollup/plugin-typescript": "^11.1.6",
+		"@types/node": "^20.12.7",
+		"rollup": "^4.17.2",
+		"tsx": "^4.7.2",
+		"typescript": "^5.4.5"
+	}
+}
