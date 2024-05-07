@@ -1,4 +1,4 @@
-# Project Name
+# Node TS Base Project
 
 ## Description
 This is a base project for Node.js using TypeScript. It provides a starting point for building Node.js applications with TypeScript support.
